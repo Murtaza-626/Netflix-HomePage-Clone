@@ -1,0 +1,351 @@
+@media only screen and (max-width:1500px) {
+
+    html, body {
+        overflow-x: hidden; /* Prevents horizontal scrolling */
+        width: 100%;
+    }
+    
+    body{
+        overflow-x: hidden; /*Prevent horizontal scrolling*/
+        margin: 0;
+        padding: 0;
+        width: 100vw;
+    }
+
+    .main .text .email {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        max-width: 600px; /* Adjust based on design */
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    .main .text .email input {
+        width: auto;
+        font-size: 30px;
+        /* min-width: 400px; */
+    }
+
+    .main .text button {
+        max-width: auto;
+        margin: 10px auto;
+    }
+
+    .main .text div:first-child{
+        position: relative;
+        top: -300px;
+        font-size: 50px !important;
+        min-width: 400px;
+    }
+
+    .main .box{
+        height: 110vh !important;
+    }
+
+    .main .text div:nth-child(2){
+        position: relative;
+        font-size: 30px;
+        top: -280px;
+    }
+
+    .main .text div:nth-child(3){
+        position: relative;
+        font-size: 30px;
+        top: -280px;
+    }
+
+
+    .main .text div:nth-child(4){
+        position: relative;
+        font-size: 30px;
+        top: -300px;
+        padding: 0;
+    }
+   
+
+    .main{
+        position: relative;
+        align-items: center;
+        width: 105vw;
+        min-height: 110vh;
+        background-size: cover;
+        padding: 0;
+    }
+
+    .main .flex{
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        /* gap: -200px; */
+        top: -110px;
+        /* position: relative; */
+        left: -50px;
+    }
+
+    .main .flex span{
+        height: auto;
+        margin-left: 80px;
+        /* width: auto; */
+    }
+
+    .main .flex .btn{
+        top: -70px;
+        width: 200px;
+        position: relative;
+        height: 70px;
+        left: 40px;
+        font-size: 40px;
+    }
+
+    
+   .first{
+    position: relative;
+    min-height: 100vh;
+    left: -200px;
+    top: 90px;
+    bottom: 30px;
+   }
+
+
+    .first .image-1{
+        max-width: auto;  /* Prevents overflow */
+        min-width: 25%;
+        height: 5px;
+        display: block;
+        position: relative;
+        bottom: 100px;
+        /* top: -500px; */
+        /* bottom: 700px; */
+    }
+
+    .first .text {
+        position: relative; /* Reset the manual positioning */
+        padding-top: 0;
+        padding-bottom: 0;
+        padding-left: 0;
+        min-width: 1000px;
+        bottom: 1300px;
+        min-height: 990px;
+        overflow-y: hidden;
+        /* font-size: 16px !important; */
+    }
+
+    .first .text .firstline{
+        position: relative;
+        left: -20px;
+        min-width: 700px;
+        font-size: 40px !important;
+        top: 120px;
+    }
+
+    .first .text .secline{
+        position: relative;
+        top: 100px;
+        left: -200px;
+        min-height: 400px;
+        min-width: 90vw;
+        font-size: 30px;
+      }
+    
+
+
+    .first .image-1 {
+        position: relative;
+        width: 240px; 
+        display: grid;
+        top: 100px;
+        margin-bottom: 180px;
+        left: 550px;
+        padding: auto 20px;
+    }
+
+    .second{
+       min-height: 120vh;
+    }
+
+    .second .text{
+        top: 500px;
+        left: -270px;
+        position: relative; /* Reset the manual positioning */
+        right: 250px;
+        margin-left: 0 10px;
+        padding: 300px;
+        min-width: 240vw;
+        bottom: 500px;
+        font-size: 16px;
+    }
+
+    .second .text :nth-child(1){
+        font-size: 40px;
+        padding-right: 50px;
+    }
+
+    .second .text :nth-child(2){
+        font-size: 30px;
+        padding-right: 40px;
+    }
+
+    .second .image-2{
+       padding: 0 0;
+       position: absolute;
+       left: -130px;
+       top: 0;
+    }
+
+    .third{
+        position: relative;
+        height: 70vh;
+    }
+
+    .third .watch{
+        position: relative;
+        right: 200px;
+        min-width: 220vw;
+        text-align: center;
+    }
+
+    .third .watch div:nth-child(1){
+        font-size: 40px;
+        min-width: 70vw;
+        text-align: center;
+    }
+
+    .third .watch div:nth-child(2){
+        position: absolute;
+        font-size: 30px;
+        top: 230px;
+        max-width: 82vw;
+        left: 250px;
+    }
+
+    .afterthird{
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        gap: 100px;    
+        min-height: 95vh;
+    }
+
+    .afterthird .kids{
+        position: relative;
+        left: 10px;
+        top: 400px;
+    }
+
+    .afterthird .profile{
+        position: relative;
+        right: 0;
+        min-width: 90vw;
+        top: -110px;
+    }
+
+     .afterthird .profile div:first-child{
+        position: relative;
+        left: 20px;
+        font-size: 40px;
+        min-width: 90vw;
+        text-align: center;
+    }
+
+   .afterthird .profile div:nth-child(2){
+        position: relative;
+        left: 20px;
+        margin-top: -80px;
+        margin-bottom: -250px;
+        font-size: 30px;
+        min-width: 90vw;
+        text-align: center;
+    }
+
+   
+    .grid{
+        position: relative
+    }
+
+    section .grid .box{
+        /* gap: 100px; */
+        position: relative;
+        left: -80px;
+        font-size: 20px !important;
+        padding: 23px 0;
+        min-width: 450px;
+    }
+
+    .grid .box svg{
+        position: relative;
+        margin-right: 40px;
+    }
+
+    .fourth{
+        position: relative;
+        min-height: 150vh;
+    }
+
+    .fourth .email{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .fourth .ready{
+        font-size: 30px;
+        padding: 0 20px;
+    }
+
+    .fourth .email input{
+        min-width: 350px;
+        position: relative;
+        right: 110px;
+        top: -40px;
+        padding: 0 10px;
+    }
+
+    .fourth .email button{
+        position: relative;
+        right: 420px;
+        top: 50px;
+        height: 80px;
+        min-width: 260px;
+    }
+
+
+    footer{
+        position: relative;
+        left: -100px;
+        /* font-size: 20px; */
+    }
+
+    footer span{
+        font-size: 30px !important;
+        /* width: 200px; */
+    }
+
+    .list{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between; /* Distribute items evenly */
+    }
+
+    .list div:first-child{
+        width: 60px;
+    }
+
+    .footer-items a{
+        position: relative;
+        padding: 0 10px;
+        display: flex;
+        flex-wrap: wrap;
+        font-size: 17px;
+        max-width: 40px;
+        gap: 10px;
+    }
+
+    .footer-items .box{
+        margin-top: 30px;
+        padding: 0 90px;
+        width: 140px;   
+ }
+    
+}
